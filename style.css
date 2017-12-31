@@ -1,6 +1,128 @@
-body  {
-  background-color: #0073D9;
-  text-decoration: white;
+body {
+    margin:0;
+    background-color: #cccccc;
+    /*background-color: red;*/
+
+
+}
+.navbar {
+    width: 15%;
+    height: 100px;
+    background-color: #cccccc;
 }
 
-h1 a:hover
+#navlist {
+  margin-top: 20px;
+  margin-left: 800px;
+  list-style: none;
+  position: relative;
+  /*background-color: #cccccc;*/
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 88px;
+    display: block;
+}
+
+#linkedin {
+  left: 0px;
+  width: 90px;
+  background: url('iconsheet.gif') 0 0;
+}
+
+/*#name {
+    left: 95px;
+    width: 90px;
+    font-family: "Arial";
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 50px;
+}*/
+
+#github {
+  /*left: 190px;
+  width: 90px;*/
+  left: 130px;
+  width: 90px;
+  background: url('iconsheet.gif') -190px 0;
+}
+
+
+#linkedin a:hover {
+  background: url('iconsheet.gif') -95px 0;
+}
+
+#name a:hover {
+  background-color: black;
+}
+
+#github a:hover {
+  background: url('iconsheet.gif') 0px -93px;
+}
+
+.maincontent {
+  width: 100%;
+  height: 700px;
+  background-color: #8585ad;
+
+}
+
+.information {
+  float:left;
+  width: 1100px;
+  height: 360px;
+  margin-left: 450px;
+  margin-top: 100px;
+  //border: 5px solid red;
+}
+
+.me {
+  float:left;
+  width: 330px;
+  height: 330px;
+  background: url("me.jpg") no-repeat;
+  background-size: 100%;
+  border: 15px solid #404040;
+}
+
+.bio {
+  float:left;
+  margin-left: 30px;
+  width: 630px;
+  height: 300px;
+  padding: 15px;
+  background-color: #d9d9d9;
+  border: 15px solid #404040;
+  font-size: 22px;
+}
+
+.startbar {
+  width: 100%;
+  height: 30px;
+  background-color: #404040;
+}
+
+.endbar {
+  width: 100%;
+  height: 30px;
+  background-color: #404040;
+}
+
+.endcontent {
+  width: 100%;
+  height: 167px;
+  background-color: #cccccc;
+  text-align: center;
+  font-family: "Arial";
+  text-align: center;
+}
