@@ -1,3 +1,5 @@
-# JackFrostiez
+# Jacky Eng
 
-Welcome! This is gonna be a new website by me :D
+Welcome! A personal portfolio website
+HTML, CSS, JS(?) 
+Boostrap Framework
